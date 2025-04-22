@@ -39,6 +39,22 @@ Este proyecto es una implementación básica de un compilador en Java que incluy
 
 ---
 
+## 🚀 Cómo ejecutar el código
+
+1. Asegúrate de tener **Java JDK** instalado (versión 8 o superior).
+2. Clona o descarga este repositorio.
+3. Abre el proyecto en tu IDE favorito (como IntelliJ IDEA o Eclipse).
+4. Asegúrate de que la clase principal sea `Compilador.java` ubicada en el paquete `ver.compilador`.
+5. Ejecuta el programa.
+
+### Interfaz de usuario
+
+- Escribe una línea de código como: `int x = 5 + 3;`
+- Haz clic en **"Analizar"** para validar la sintaxis y semántica.
+- Haz clic en **"Árbol"** para visualizar el árbol sintáctico correspondiente.
+
+---
+
 ## 🧪Estructura Simplificada
 Sentencia → PalabraClave Identificador '=' Expresion ';'
 Expresion → Número (Operador Número)?
