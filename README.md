@@ -17,7 +17,17 @@ Este proyecto es una implementación básica de un compilador en Java que incluy
 - **Análisis semántico**: Verifica que las variables estén correctamente declaradas antes de usarse.
 - **Árbol sintáctico**: Representa la estructura jerárquica de una sentencia con un árbol visual.
 ---
+### 🧬 Enfoque Tecnico
 
+1. **Inicialización**: Se recibe la lista de tokens ya analizados por el analizador léxico.
+2. **Construcción manual del árbol**:
+   - Se inicia un nodo raíz con la etiqueta `"Sentencia"`.
+   - Se agregan nodos hijos de forma secuencial si los tokens coinciden con la estructura esperada (por ejemplo: `PalabraClave`, `Identificador`, `=`, `Número`...).
+   - La clase `GeneradorArbolSintacticoDesdeTokens` maneja esta lógica recursivamente, usando métodos como `expresion()` para construir subnodos.
+3. **Visualización**: Se convierte el nodo raíz en un `JTree` y se muestra en la GUI al presionar el botón **"Árbol"**.
+
+> El árbol generado refleja la estructura jerárquica de una sentencia como `int x = 5 + 3;`, representando claramente los componentes de la gramática en forma de árbol.
+---
 ## 🚀 Características principales
 
 ✅ Interfaz gráfica amigable con campos para escribir el código fuente  
