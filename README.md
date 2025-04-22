@@ -50,6 +50,10 @@ Expresion → Número (Operador Número)?
 ✅Resaltar errores léxicos en el texto ingresado
 ✅Internacionalización de la GUI
 
+## 🧪Diagrama de flujo
+![Diagrama de Flujo Compilador](https://github.com/user-attachments/assets/7102871a-9a39-4e57-874c-16996cb81fb0)
+
+
 ## 📘 Gramática utilizada
 La gramática base que maneja el compilador permite analizar expresiones como:
 ```text
