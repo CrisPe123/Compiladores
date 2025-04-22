@@ -70,6 +70,10 @@ Expresion → Número (Operador Número)?
 ![Diagrama de Flujo Compilador](https://github.com/user-attachments/assets/7102871a-9a39-4e57-874c-16996cb81fb0)
 
 
+## 🧪Informe Tecnico Detallado
+[Informe Arbol Sintactico.docx](https://github.com/user-attachments/files/19849495/Informe.Arbol.Sintactico.docx)
+
+
 ## 📘 Gramática utilizada
 La gramática base que maneja el compilador permite analizar expresiones como:
 ```text
